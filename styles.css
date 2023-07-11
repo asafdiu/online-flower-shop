@@ -301,7 +301,7 @@ button {
 
 /* MY Extra Creative Section Here */
 .todays-offer{
-    background-image: url("/Flower Asset/offer.jpg");
+    background-image: url('/Flower Asset/offer.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 1085px;
