@@ -299,6 +299,21 @@ button {
     margin-left: 10px;
 }
 
+/* MY Extra Creative Section Here */
+.todays-offer{
+    background-image: url("/Flower Asset/offer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1085px;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+}
+.offer-text{
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
 /* FOOTER SECTION HERE */
 
 .footer {
