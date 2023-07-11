@@ -200,3 +200,44 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/* Instagram Section started here */
+/* .instagram{
+
+    display: block;
+    justify-content: space-between;
+} */
+
+.insta-top {
+    max-width: 594px;
+    text-align: center;
+    margin: auto;
+}
+
+.insta-top h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-top p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.insta-images {
+    max-width: 1155px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+
+}
+
+.insta-image-size {
+    width: 242px;
+    height: 296px;
+    flex-shrink: 0;
+}
