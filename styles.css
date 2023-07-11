@@ -277,7 +277,7 @@ body {
 
 .lates-deal-email {
     text-align: center;
-    
+
 
 }
 
@@ -294,6 +294,44 @@ input::placeholder {
     font-size: 18px;
     padding-left: 22px;
 }
+
 button {
     margin-left: 10px;
+}
+
+/* FOOTER SECTION HERE */
+
+.footer {
+    margin-top: 80px;
+    background: #111010;
+    height: 300px;
+    text-align: center;
+}
+
+.footer h3 {
+    padding-top: 30px;
+    /* text-align: center; */
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 0;
+}
+
+.footer-text {
+    padding-top: 0px;
+
+    /* text-align: center; */
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: auto;
+
+}
+
+.small {
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
