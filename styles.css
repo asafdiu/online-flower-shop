@@ -57,9 +57,10 @@ body {
 }
 
 /* Feature Section Started here */
-.feature{
+.feature {
     background: #FFF;
 }
+
 .feature-top {
     text-align: center;
     margin-top: 100px;
@@ -166,3 +167,36 @@ body {
 }
 
 /* HOT DEAL SECTION */
+.hotdeal {
+    display: flex;
+    gap: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+}
+
+.hotdeal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hotdeal-text {
+    color: rgba(39, 39, 39, 0.60);
+    max-width: 590px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.hotdeal-image {
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
