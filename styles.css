@@ -120,7 +120,7 @@ body {
 .feature-image {
     width: 230px;
     height: 328px;
-    margin: 110px 75px 0px 75px;
+    margin: 110px 75px 0px 65px;
     margin-bottom: 0;
 }
 
@@ -207,6 +207,10 @@ body {
     display: block;
     justify-content: space-between;
 } */
+.instagram {
+    background: #FFF;
+    margin-bottom: 80px;
+}
 
 .insta-top {
     max-width: 594px;
@@ -240,4 +244,56 @@ body {
     width: 242px;
     height: 296px;
     flex-shrink: 0;
+}
+
+/* LATEST DEAL SECTION STARTED HERE */
+
+.latest-deal {
+    width: 1080px;
+    height: 350px;
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-size: cover;
+    margin: auto;
+}
+
+.lates-deal-text {
+    text-align: center;
+}
+
+.lates-deal-text h3 {
+    padding-top: 110px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.lates-deal-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.lates-deal-email {
+    text-align: center;
+    
+
+}
+
+input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 450px;
+    height: 64px;
+    flex-shrink: 0;
+    border: 0;
+}
+
+input::placeholder {
+    font-size: 18px;
+    padding-left: 22px;
+}
+button {
+    margin-left: 10px;
 }
